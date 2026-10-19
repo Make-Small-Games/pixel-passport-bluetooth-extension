@@ -1,0 +1,27 @@
+{
+    "name": "Pixel Passport (Bluetooth) Extension",
+    "version": "0.3.0",
+    "description": "Import Pixel Passport characters into MakeCode Arcade using Bluetooth keyboard input.",
+    "dependencies": {
+        "device": "*",
+        "browser-events": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1"
+    },
+    "files": [
+        "custom.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "main.ts",
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
